@@ -2,6 +2,7 @@ import "@/styles/globals.css"
 
 import { Inter } from "next/font/google"
 import { PropsWithChildren } from "react"
+import { twMerge } from "tailwind-merge"
 
 import Footer from "@/components/footer"
 import Navbar from "@/components/navbar"
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
+      <body className={twMerge(inter.variable, "antialiased")}>
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
         <Footer />
