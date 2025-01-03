@@ -10,10 +10,10 @@
 
 @layer utilities {
   .btn_white {
-    @apply border-white bg-white px-8 py-3 text-green-50;
+    @apply border-white bg-white px-8 py-5 text-green-50;
   }
   .btn_white_text {
-    @apply text-gray-90 border-white bg-white px-8 py-3;
+    @apply border-white bg-white px-8 py-3 text-gray-90;
   }
   .btn_green {
     @apply border-green-50 bg-green-50 px-8 py-5 text-white;
@@ -30,7 +30,7 @@
   }
 
   .padding-container {
-    @apply 3xl:px-0 px-6 lg:px-20;
+    @apply px-6 lg:px-20 3xl:px-0;
   }
 
   .flexCenter {
@@ -120,22 +120,22 @@
 
   /* Hero */
   .hero-map {
-    @apply bg-pattern-2 absolute right-0 top-0 h-screen w-screen bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
   }
 
   /* Camp */
   .camp-quote {
-    @apply 3xl:right-0 absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px];
+    @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
   }
 
   /* Feature */
   .feature-phone {
-    @apply 3xl:left-20 absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex;
+    @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex 3xl:left-20;
   }
 
   /* Get App */
   .get-app {
-    @apply max-container bg-green-90 bg-pattern 2xl:rounded-5xl relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px];
+    @apply max-container relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
   }
 }
 
