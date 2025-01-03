@@ -14,7 +14,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Travel",
+  title: "Hilink | Travel App",
   description: "Travel UI/UX App for Camping",
 }
 
